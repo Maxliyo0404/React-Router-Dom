@@ -7,12 +7,12 @@ import React from 'react';
 
 function Header() {
   return (
-    <div>
-        <h1>logo</h1>
+    <div className="boxs">
+        <h1 className="header-title">logo</h1>
         <ul className="header-list">
-            <li><Link to="about">About</Link></li>
-            <li><Link to="contact">Contact</Link></li>
-            <li><Link to="services">Services</Link></li>
+            <li className="header-item"><Link className="link" to="about">About</Link></li>
+            <li className="header-item"><Link className="link" to="contact">Contact</Link></li>
+            <li className="header-item"><Link className="link" to="services">Services</Link></li>
         </ul>
     </div>
   )
