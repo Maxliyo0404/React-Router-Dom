@@ -12,6 +12,7 @@ function App() {
     <Routes element={<Layout/>}>
       <Route  path='about' element={<AboutPages/>} />
       <Route path='contact' element={<ContactPages/>} />
+      <Route path='services' element={<ServicesPages/>} />
     </Routes>
     </BrowserRouter>
     </div>
