@@ -1,0 +1,34 @@
+.cards{
+    max-width: 300px;
+    background:skyblue;
+    margin:  100px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+.rasm{
+    max-width: 300px;
+    min-height: 200px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    &:hover{
+        transform: scale(0.9);
+    }
+}
+.title{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700px;
+    margin-bottom: 8px;
+    color: black;
+}
+.text{
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400px;
+    color: black;
+}
