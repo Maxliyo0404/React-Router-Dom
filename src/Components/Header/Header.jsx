@@ -8,8 +8,8 @@ function Header() {
         <h1>logo</h1>
         <ul className="header-list">
             <li><a href="#">About</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
         </ul>
     </div>
   )
