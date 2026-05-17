@@ -3,12 +3,12 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-        <h1>Footer </h1>
+     <div className="boxs">
+        <h1 className="footer-title">Lorem ipsum dolor sit.</h1>
         <ul className="footer-list">
-            <li><a href="">About</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">About</a></li>
+            <li className="footer-item"><Link className="link" to="about">About</Link></li>
+            <li className="footer-item"><Link className="link" to="contact">Contact</Link></li>
+            <li className="footer-item"><Link className="link" to="services">Services</Link></li>
         </ul>
     </div>
   )
