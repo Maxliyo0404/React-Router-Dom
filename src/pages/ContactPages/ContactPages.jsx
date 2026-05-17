@@ -1,6 +1,6 @@
 import "./ContactPages.css";
 import React from 'react'
-import contact_1 from "./image/contact_1.jsx"
+import contact_1 from "./image/contact_1.jpg"
 
 function ContactPages() {
   return (
