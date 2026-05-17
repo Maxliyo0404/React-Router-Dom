@@ -1,5 +1,22 @@
 .boxs{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px ;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-title{
+     max-width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700px;
+    color: #fff;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
