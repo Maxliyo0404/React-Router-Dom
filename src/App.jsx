@@ -7,9 +7,7 @@ function App() {
     <div>
     <BrowserRouter>
     <Routes>
-      <Route>
-        
-      </Route>
+      <Route />
     </Routes>
     </BrowserRouter>
     </div>
