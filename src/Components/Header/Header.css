@@ -14,9 +14,26 @@
     line-height: 22px;
     font-weight: 700px;
     color: #fff;
+     &:hover{
+       color: blue;
+        cursor: pointer;
+    }
 }
 .header-list{
     display: flex;
     align-items: center;
     gap: 30px;
+}
+.link{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700px;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    &:hover{
+       color: blue;
+       text-decoration: underline;
+       cursor: pointer;
+    }
 }
